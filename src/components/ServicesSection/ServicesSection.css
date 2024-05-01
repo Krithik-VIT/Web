@@ -1,0 +1,105 @@
+.serviceSection {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.motto {
+  max-width: 600px;
+  font-weight: bolder;
+  font-size: 60px;
+  color: rgb(15, 210, 210);
+}
+
+.mottoSubtitle {
+  max-width: 600px;
+  font-size: 20px;
+  color: rgb(127, 127, 127);
+}
+
+
+
+.serviceImage {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transform: translateX(-20px);
+  
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .serviceSection {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .serviceText {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 630px) {
+  .serviceSection {
+    padding: 15px;
+  }
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+.serviceSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serviceText {
+  width: 50%;
+  padding-right: 20px; /* Add space between image and text */
+}
+
+
+
+Form {
+  width: 50%;
+}
+
+
+input[type="text"], select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+input[type="submit"], input[type="reset"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+input[type="reset"] {
+  background-color: #f44336;
+}
